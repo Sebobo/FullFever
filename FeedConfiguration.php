@@ -33,28 +33,12 @@
  */
 
 $feedConfiguration = array(
-    '/www.spiegel.de/' => array(
-        'xPath' => '//*[@id="js-article-column"]',
-        'keepAbstract' => TRUE,
-        'replace' => array()
-    ),
-    '/www.maclife.de/' => array(
-        'xPath' => '//*[@id="center_left_content"]/div[1]/div/div[3]'
-    ),
     '/www.ka-news.de/' => array(
         'xPath' => '//*[@id="artdetail_text"]',
         'keepAbstract' => TRUE,
     ),
-    '/www.heise.de/' => array(
-        'xPath' => '//*[@id="mitte_news"]',
-        'keepAbstract' => TRUE,
-    ),
-    '/www.aerzteblatt.de/' => array(
-        'xPath' => '//*[@id="newsContent"]',
-        'keepAbstract' => TRUE,
-    ),
-     '/www.sajonara.de/' => array(
-         'xPath' => '//*[@id="rumpf"]/div/div[1]/article/div[2]',
-         'keepAbstract' => FALSE,
+    '/www.n-tv.de/' => array(
+        'xPath' => '//*[@id="wrapper-page"]//article',
+        'keepAbstract' => FALSE,
     ),
 );

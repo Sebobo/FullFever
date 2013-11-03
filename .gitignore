@@ -2,3 +2,5 @@
 LocalConfiguration.php
 FullText.cache
 *.log
+/FullFever.sublime-project
+/FullFever.sublime-workspace
